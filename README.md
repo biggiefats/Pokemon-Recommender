@@ -1,3 +1,5 @@
+*All Pokémon character names are trademarks of Nintendo*
+
 # Pokemon Recommendation Program
 
 ## Overview
