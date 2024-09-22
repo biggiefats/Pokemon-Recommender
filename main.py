@@ -177,6 +177,3 @@ class PokeData:
             return best_pokemon_df.sort_values(by='score', ascending=False)[['name', 'type1', 'hp', 'defense', 'score']].reset_index(drop=True).head(15)
         elif algorithm == 5:
             return best_pokemon_df.sort_values(by='score', ascending=False)[['name', 'type1', 'speed', 'score']].reset_index(drop=True).head(15)
-
-data = PokeData()
-print(data.basic_optimal_team_build_plus())
